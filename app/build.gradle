@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+android {
+    namespace 'com.darkhacker.launcher'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.darkhacker.launcher'
+        minSdk 23
+        targetSdk 29
+        versionCode 1
+        versionName '1.0'
+    }
+}
